@@ -1,0 +1,9 @@
+# 虚拟环境
+.venv/
+
+# Mac
+.DS_Store
+
+# 缓存
+*/__pycache__/
+__pycache__/
