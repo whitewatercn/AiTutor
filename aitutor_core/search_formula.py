@@ -1,5 +1,5 @@
 import argparse
-import aitutor_core 
+import cnki_core 
 def parse_search_arguments():
     """
     通过命令行参数获取用户输入的作者(AU)和作者单位(AF)信息
@@ -56,7 +56,7 @@ def main():
     print("生成的检索式:")
     print(search_formula)
     
-    aitutor_core.launch_cnki(search_formula)
+    cnki_core.launch_cnki(search_formula)
 
 if __name__ == "__main__":
     main()

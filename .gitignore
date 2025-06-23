@@ -1,5 +1,6 @@
-# 虚拟环境
+# 环境
 .venv/
+.vscode/
 
 # Mac
 .DS_Store
@@ -7,3 +8,9 @@
 # 缓存
 */__pycache__/
 __pycache__/
+
+# 测试文档
+*README.md
+analysis_report_*.md
+analysis_report_*.html
+cnki_papers_*csv
