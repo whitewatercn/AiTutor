@@ -2,13 +2,20 @@
 
 python = 3.12
 
-# 使用
+# 安装
 
 ```
 pip install -r requirements.txt
 playwright install --with-deps chromium
 ```
 
+# 使用
+
+```
+search_formul -h # 检索内容
+ai_analyze -h # 分析内容
+
+```
 
 # 感谢
 
